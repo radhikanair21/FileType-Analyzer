@@ -1,3 +1,4 @@
+#This is a console-based application 
 import os
 from datetime import datetime
 from file_analyzer import FileTypeAnalyzer
@@ -71,3 +72,4 @@ def save_report(result, path):
 
 if __name__ == "__main__":
     main()
+
