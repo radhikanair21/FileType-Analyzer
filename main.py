@@ -1,3 +1,4 @@
+#This is the main GUI-based application
 import tkinter as tk
 from tkinter import filedialog, messagebox
 import threading
@@ -215,3 +216,4 @@ if __name__ == "__main__":
     root = tk.Tk()
     App(root)
     root.mainloop()
+
