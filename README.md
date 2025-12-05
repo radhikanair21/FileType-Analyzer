@@ -3,13 +3,9 @@ A simple and effective desktop tool that checks the real type of any file, detec
 It is useful for spotting hidden malware, phishing attachments, and suspicious downloads.
 <img width="1246" height="1007" alt="image" src="https://github.com/user-attachments/assets/9ae1f3b0-121f-4043-a4d9-59ccafd720ea" />
 
-Features:
-Detects real file type using magic signatures
-Flags mismatches between extension and actual format
-Generates SHA-256 hash for integrity and forensic use
-Safe static analysis (no execution)
-Clean dark-themed Tkinter interface
-Exportable text report with all details
+Features: Magic signature detection, extension-spoofing detection, SHA-256 hashing, static file analysis without execution, dark-themed GUI dashboard, and exportable text reports.
+
+Tech stack: Python, Tkinter(GUI)
 
 Installations:
 git clone https://github.com/radhikanair21/FileType-Analyzer
